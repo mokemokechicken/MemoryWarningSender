@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E74DA8F1522C7340072934B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E74DA8E1522C7340072934B /* Cocoa.framework */; };
+		4E74DA991522C7340072934B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E74DA971522C7340072934B /* InfoPlist.strings */; };
+		4E74DAA61522C9AB0072934B /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74DAA51522C9AB0072934B /* NSObject+Swizzle.m */; };
+		4E74DAA91522CAD40072934B /* NSObject+MonitorControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74DAA81522CAD40072934B /* NSObject+MonitorControllerExtention.m */; };
+		4E74DAAE1522F4720072934B /* MemoryWarningSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E74DAAF1522F4720072934B /* MemoryWarningSender.m */; };
+		4EF926601523067300016713 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EF926621523067300016713 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E74DAB91522FDB90072934B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E74DA8B1522C7340072934B /* MemoryWarningSender.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryWarningSender.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E74DA8E1522C7340072934B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E74DA911522C7340072934B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E74DA921522C7340072934B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E74DA931522C7340072934B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E74DA961522C7340072934B /* MemoryWarningSender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryWarningSender-Info.plist"; sourceTree = "<group>"; };
+		4E74DA981522C7340072934B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E74DA9A1522C7340072934B /* MemoryWarningSender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryWarningSender-Prefix.pch"; sourceTree = "<group>"; };
+		4E74DAA11522C9540072934B /* MemoryWarningSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryWarningSender.h; sourceTree = "<group>"; };
+		4E74DAA41522C9AB0072934B /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		4E74DAA51522C9AB0072934B /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		4E74DAA71522CAD40072934B /* NSObject+MonitorControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MonitorControllerExtention.h"; sourceTree = "<group>"; };
+		4E74DAA81522CAD40072934B /* NSObject+MonitorControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MonitorControllerExtention.m"; sourceTree = "<group>"; };
+		4E74DAAF1522F4720072934B /* MemoryWarningSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningSender.m; sourceTree = "<group>"; };
+		4EF926611523067300016713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4EF926631523067900016713 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E74DA881522C7340072934B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E74DA8F1522C7340072934B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E74DA801522C7340072934B = {
+			isa = PBXGroup;
+			children = (
+				4E74DAA01522C93B0072934B /* Classes */,
+				4E74DA941522C7340072934B /* MemoryWarningSender */,
+				4E74DA8D1522C7340072934B /* Frameworks */,
+				4E74DA8C1522C7340072934B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E74DA8C1522C7340072934B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E74DA8B1522C7340072934B /* MemoryWarningSender.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E74DA8D1522C7340072934B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E74DA8E1522C7340072934B /* Cocoa.framework */,
+				4E74DA901522C7340072934B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E74DA901522C7340072934B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E74DA911522C7340072934B /* AppKit.framework */,
+				4E74DA921522C7340072934B /* CoreData.framework */,
+				4E74DA931522C7340072934B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4E74DA941522C7340072934B /* MemoryWarningSender */ = {
+			isa = PBXGroup;
+			children = (
+				4E74DA951522C7340072934B /* Supporting Files */,
+			);
+			path = MemoryWarningSender;
+			sourceTree = "<group>";
+		};
+		4E74DA951522C7340072934B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E74DA961522C7340072934B /* MemoryWarningSender-Info.plist */,
+				4EF926621523067300016713 /* Localizable.strings */,
+				4E74DA971522C7340072934B /* InfoPlist.strings */,
+				4E74DA9A1522C7340072934B /* MemoryWarningSender-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E74DAA01522C93B0072934B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E74DAA11522C9540072934B /* MemoryWarningSender.h */,
+				4E74DAAF1522F4720072934B /* MemoryWarningSender.m */,
+				4E74DAA41522C9AB0072934B /* NSObject+Swizzle.h */,
+				4E74DAA51522C9AB0072934B /* NSObject+Swizzle.m */,
+				4E74DAA71522CAD40072934B /* NSObject+MonitorControllerExtention.h */,
+				4E74DAA81522CAD40072934B /* NSObject+MonitorControllerExtention.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E74DA8A1522C7340072934B /* MemoryWarningSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E74DA9D1522C7340072934B /* Build configuration list for PBXNativeTarget "MemoryWarningSender" */;
+			buildPhases = (
+				4E74DA871522C7340072934B /* Sources */,
+				4E74DA881522C7340072934B /* Frameworks */,
+				4E74DA891522C7340072934B /* Resources */,
+				4E74DAB91522FDB90072934B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryWarningSender;
+			productName = MemoryWarningSender;
+			productReference = 4E74DA8B1522C7340072934B /* MemoryWarningSender.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E74DA821522C7340072934B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "株式会社ゆめみ";
+			};
+			buildConfigurationList = 4E74DA851522C7340072934B /* Build configuration list for PBXProject "MemoryWarningSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 4E74DA801522C7340072934B;
+			productRefGroup = 4E74DA8C1522C7340072934B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E74DA8A1522C7340072934B /* MemoryWarningSender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E74DA891522C7340072934B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E74DA991522C7340072934B /* InfoPlist.strings in Resources */,
+				4EF926601523067300016713 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E74DA871522C7340072934B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E74DAAE1522F4720072934B /* MemoryWarningSender.m in Sources */,
+				4E74DAA61522C9AB0072934B /* NSObject+Swizzle.m in Sources */,
+				4E74DAA91522CAD40072934B /* NSObject+MonitorControllerExtention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E74DA971522C7340072934B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E74DA981522C7340072934B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EF926621523067300016713 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF926611523067300016713 /* en */,
+				4EF926631523067900016713 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E74DA9B1522C7340072934B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E74DA9C1522C7340072934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E74DA9E1522C7340072934B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryWarningSender/MemoryWarningSender-Prefix.pch";
+				INFOPLIST_FILE = "MemoryWarningSender/MemoryWarningSender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4E74DA9F1522C7340072934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryWarningSender/MemoryWarningSender-Prefix.pch";
+				INFOPLIST_FILE = "MemoryWarningSender/MemoryWarningSender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E74DA851522C7340072934B /* Build configuration list for PBXProject "MemoryWarningSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E74DA9B1522C7340072934B /* Debug */,
+				4E74DA9C1522C7340072934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E74DA9D1522C7340072934B /* Build configuration list for PBXNativeTarget "MemoryWarningSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E74DA9E1522C7340072934B /* Debug */,
+				4E74DA9F1522C7340072934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E74DA821522C7340072934B /* Project object */;
+}
