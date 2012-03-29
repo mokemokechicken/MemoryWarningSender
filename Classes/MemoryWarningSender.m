@@ -7,8 +7,6 @@
 //
 
 #import "MemoryWarningSender.h"
-#import "NSObject+Swizzle.h"
-#import "NSObject+MonitorControllerExtention.h"
 #import <objc/objc-class.h>
 
 #define MemoryWarningSender_USERDEFAULTS_REPEAT_SEC (@"MemoryWarningSender_USERDEFAULTS_REPEAT_SEC")
@@ -53,11 +51,12 @@
 
 - (void)installMenu
 {
+    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"jp.co.yumemi.rd.MemoryWarningSender"];
     NSMenu *menu = [[[NSMenu alloc] init] autorelease];
-    [menu addItem:[self createMenuItem:NSLocalizedString(@"None", nil) tag:MemoryWarningMenuItem_None]];
-    [menu addItem:[self createMenuItem:NSLocalizedString(@"Every 5 sec", nil) tag:MemoryWarningMenuItem_5sec]];
-    [menu addItem:[self createMenuItem:NSLocalizedString(@"Every 15 sec", nil) tag:MemoryWarningMenuItem_15sec]];
-    [menu addItem:[self createMenuItem:NSLocalizedString(@"Every 60 sec", nil) tag:MemoryWarningMenuItem_60sec]];
+    [menu addItem:[self createMenuItem:NSLocalizedStringFromTableInBundle(@"None", nil, bundle, @"None") tag:MemoryWarningMenuItem_None]];
+    [menu addItem:[self createMenuItem:NSLocalizedStringFromTableInBundle(@"Every 5 sec", nil, bundle, @"Every5sec") tag:MemoryWarningMenuItem_5sec]];
+    [menu addItem:[self createMenuItem:NSLocalizedStringFromTableInBundle(@"Every 15 sec", nil, bundle, @"Every15sec") tag:MemoryWarningMenuItem_15sec]];
+    [menu addItem:[self createMenuItem:NSLocalizedStringFromTableInBundle(@"Every 60 sec", nil, bundle, @"Every60sec") tag:MemoryWarningMenuItem_60sec]];
     self.menu = menu;
     // select defaults
     int tag = [self loadDefaultRepeatTag];
@@ -69,7 +68,7 @@
     //
     NSMenu *appMenu = [[[[NSApplication sharedApplication] mainMenu] itemAtIndex:3] submenu];
     NSMenuItem *appMenuItem = [[[NSMenuItem alloc] init] autorelease];
-    appMenuItem.title = NSLocalizedString(@"Send MemoryWarning Repeatedly", nil);
+    appMenuItem.title = NSLocalizedStringFromTableInBundle(@"Send MemoryWarning Repeatedly", nil, bundle, @"MenuName");
     [appMenu addItem:appMenuItem];
     [appMenu setSubmenu:menu forItem:appMenuItem];
 }

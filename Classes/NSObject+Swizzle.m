@@ -6,6 +6,11 @@
 //  Copyright (c) 2012年 株式会社ゆめみ. All rights reserved.
 //
 
+/*
+    http://mitukiii.jp/2011/01/21/how-to-make-simbl-plugin/
+    のコードを使わせて頂いています。
+*/
+
 #import "NSObject+Swizzle.h"
 #import <objc/objc-class.h>
 
