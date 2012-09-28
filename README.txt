@@ -9,8 +9,8 @@ MemoryWarnings in the users iOS device happen unpredictably, so it helps testing
 * SIMBL(0.9.9 or later): http://www.culater.net/software/SIMBL/SIMBL.php
 
 * tested only
-** MacOS X Lion 10.7.3
-** XCode 4.3.1
+** MacOS X Mountain Lion 10.8.2
+** XCode 4.5
 
 = Install
 
