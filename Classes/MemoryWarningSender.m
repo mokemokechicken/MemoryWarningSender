@@ -117,7 +117,7 @@
 - (int)loadDefaultRepeatTag
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    return [defaults integerForKey:MemoryWarningSender_USERDEFAULTS_REPEAT_SEC];
+    return (int)[defaults integerForKey:MemoryWarningSender_USERDEFAULTS_REPEAT_SEC];
 }
 
 - (void)sendMemoryWarning:(id)arg1
